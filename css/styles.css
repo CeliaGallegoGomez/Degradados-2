@@ -22,4 +22,42 @@ ul {
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: black;
+}
+
+.box-1 {
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+  border: 1px solid white;
+  background-image: radial-gradient(circle, red 40%, white 40% 100%);
+}
+
+.box-2 {
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+  border: 1px solid white;
+  background-image: radial-gradient(
+    circle at 120px,
+    yellow 35%,
+    lightskyblue 35% 100%
+  );
+}
+
+.box-3 {
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+  border: 1px solid white;
+  background-image: radial-gradient(circle, white 31%, transparent 31% 100%),
+    linear-gradient(red 25%, navy 25% 75%, red 75% 100%);
+}
+
+.box-4 {
+  width: 1000px;
+  height: 550px;
+  border: 1px solid white;
+  margin: 10px;
+  background-image: radial-gradient(circle at bottom center, purple 50%, transparent 50%),radial-gradient(circle at bottom center,pink 60%, transparent 40%);
 }
